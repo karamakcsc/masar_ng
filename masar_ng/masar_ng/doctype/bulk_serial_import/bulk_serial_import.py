@@ -156,4 +156,4 @@ def process_serial_batch(serials, item_code, warehouse, bundle):
     # 3. Update bundle totals
     bundle.total_qty += len(serials)  # Add the number of serials to the total quantity
     if bundle.avg_rate:
-        bundle.total_amount += len(serials) * bundle.avg_rate  # Update total amount if avg_rate is set
+        bundle.total_amount += len(serials) * bundle.avg_rate  # Update total amount if avg_rate is set siam
